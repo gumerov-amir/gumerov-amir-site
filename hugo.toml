@@ -1,9 +1,11 @@
 baseURL = "https://www.gumerov-amir.ru"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
-title = "Gumerov Amir"
+title = "Гумеров Амир Эдуардович"
 theme = "anubis"
 paginate = 3
+
+disableHugoGeneratorInject = true
 
 disqusShortname = ""
 googleAnalytics = ""
@@ -51,16 +53,10 @@ url = "/about/"
 weight = 1
 
 [[menu.main]]
-identifier = "tags"
-name = "Теги"
-url = "/tags/"
-weight = 2
-
-[[menu.main]]
-name = "Archive"
-identifier = "Блог"
+identifier = "archive"
+name = "Блог"
 url = "/posts/"
-weight = 3
+weight = 2
 
 [languages.en]
 languageName = "English"
@@ -72,16 +68,10 @@ url = "/about/"
 weight = 1
 
 [[languages.en.menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 2
-
-[[languages.en.menu.main]]
 identifier = "archive"
 name = "Archive"
 url = "/posts/"
-weight = 3
+weight = 2
 
 [languages.en.params]
 locale = "en-us"
