@@ -3,7 +3,7 @@ languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Гумеров Амир Эдуардович"
 theme = "anubis"
-paginate = 3
+paginate = 10
 
 disableHugoGeneratorInject = true
 
