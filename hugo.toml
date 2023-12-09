@@ -1,0 +1,95 @@
+baseURL = "https://www.gumerov-amir.ru"
+languageCode = "ru-ru"
+defaultContentLanguage = "ru"
+title = "Gumerov Amir"
+theme = "anubis"
+paginate = 3
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Gumerov Amir"
+
+[params]
+author = "Gumerov Amir"
+description = "Site about Gumerov Amir"
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = true
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+locale = "ru-ru"
+mathjax = false
+
+# Graphcomment support
+graphcommentId = ""
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+  
+[[params.social]]
+id = "VK"
+url = "https://vk.com/gumerov_amir"
+
+[[params.social]]
+id = "Telegram"
+url = "https://t.me/gumerov_amir-channel"
+
+[languages.ru]
+languageName = "Русский"
+
+[[menu.main]]
+identifier = "about"
+name = "Обо мне"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Теги"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "Блог"
+url = "/posts/"
+weight = 3
+
+[languages.en]
+languageName = "English"
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About me"
+url = "/about/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/posts/"
+weight = 3
+
+[languages.en.params]
+locale = "en-us"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+author = "authors"
+
+[markup.goldmark.renderer]
+unsafe = true
