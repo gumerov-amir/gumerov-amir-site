@@ -3,7 +3,7 @@ title: "Биография"
 description: "Биография Гумерова Амира"
 date: "2019-02-28"
 author: "Gumerov Amir"
-slug: /about/biography
+slug: /about/biography/
 menu:
   biography:
     identifier: biography
