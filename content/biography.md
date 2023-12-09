@@ -1,24 +1,17 @@
 ---
-title: "About Subpage"
-description: "About Subpage"
+title: "Биография"
+description: "Биография Гумерова Амира"
 date: "2019-02-28"
-author: "Hugo Authors"
-slug: /about/subpage
+author: "Gumerov Amir"
+slug: /about/biography
 menu:
-  subpage:
-    identifier: about-subpage-s
+  biography:
+    identifier: biography
     parent: about
-    name: About Subpage
-    title: About Subpage
-    url: /about/subpage/
+    name: biography
+    title: Биография
+    url: /about/biography/
     weight: 1
-  subpage2:
-    identifier: about-subpage2-s
-    parent: about
-    name: Second About Subpage
-    title: Second About Subpage
-    url: /about/subpage2/
-    weight: 10
 ---
 
-About subpage
+Полная биография
